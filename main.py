@@ -7,7 +7,6 @@ bot = commands.Bot(command_prefix=".", intents=intents)
 
 @bot.event
 async def setup_hook():
-
     await bot.load_extension("cogs.core")
     await bot.load_extension("cogs.time_task")
     await bot.load_extension("cogs.gacha")
