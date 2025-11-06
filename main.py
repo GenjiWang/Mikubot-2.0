@@ -13,5 +13,6 @@ async def setup_hook():
     await bot.load_extension("cogs.gacha")
     await bot.load_extension("cogs.feedback")
     await bot.load_extension("cogs.comfy_AI")
+    await bot.load_extension("cogs.LLM")
 bot.run("")
 
