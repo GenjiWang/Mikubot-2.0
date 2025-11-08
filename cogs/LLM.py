@@ -32,7 +32,7 @@ class LLM(commands.Cog):
 
         url = "http://127.0.0.1:8008/api/generate"
         data = {
-            "model": "deepseek-r1:latest",
+            "model": "gemma3:12b",
             "prompt": f"請用繁體中文回答：{final_prompt}",
             "stream": True
         }
